@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="9104"
+    android:versionName="4.9.6.1"
+    android:installLocation="1"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="com.arlosoft.macrodroid"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9">
+<set
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="28" />
+
+    <permission
+        android:name="com.arlosoft.macrodroid.permission.MAPS_RECEIVE"
+        android:protectionLevel="0x2" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <uses-feature>
+		android:duration="33"
+            android:valueFrom="1065353216.000000"android:propertyName="fillAlpha" />
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	android:name="android.hardware.location.gps"
+</set>
